@@ -9,6 +9,7 @@
 	list-style:none;
 	text-decorations:none;
 	font-family: 'Solway', serif;
+	
 }
 body{
 	background-color:#FCF5E9;
@@ -72,64 +73,44 @@ body{
 /*HEADER END*/
 
 
-/*ABOUT SECTION*/
-.about {
-	width:100%;
-	padding:78px 0px;
+/*FORM SECTION*/
+.title{
+	text-align:center;
+	padding:40px;
 }
 
-.about img {
-	height: auto;
-	width:420px;
-	border-radius:60px;
+.title h1{
+	color:hsla(36,97%,63%,1.00)
+}
+#contact-form{
+	padding:10px;
+	text-align: center;
 }
 
-.about-text {
-	width:550px;
+#contact-form input{
+	border-radius:20px;
+	border:2px solid #C9CAFF;
 }
 
-.main {
-	width:1130px;
-	max-width:95%;
-	margin:0 auto;
-	display:flex;
-	align-items:center;
-	justifu-content:space-around;
+#contact-form textarea {
+	border-radius:20px;
+	border:2px solid #C9CAFF;
 }
 
-.about-text{
-	margin:60px;
-}
-
-.about-text h2{
+.fields{
 	color:#5a2b0e;
-	font-size:40px;
-	text-transform:capitalize;
+	font-weight:bold;
 }
 
-.about-text h3{
-	color:#fcb446;
-	font-size:22px;
-	text-transform:capitalize;
-	margin-bottom:25px;
-	letter-spacing:2px;
-}
-
-.about-text p{
-	color:#5a2b0e;
-	letter-spacing:1px;
-	line-height: 28px;
-	font-size:18px;
-	margin-bottom:45px;
-}
-
-button{
+.button{
 	background:#C9CAFF;
 	color:white;
 	text-decoration:none;
 	border:3px solid #C9CAFF;
 	font-weight:bold;
 	padding:13px 30px;
+	margin-top:20px;
+	margin-bottom:60px;
 	border-radius:30px;
 	transition:.4s;
 }
@@ -138,15 +119,8 @@ button:hover{
 	background:#fcb446;
 	color:white;
 	border:3px solid #fcb446;
-	cursor: pointer;
-}
-
-button a{
-	color:white;
-	text-decoration:none;
-	letter-spacing:3px;
-}
-/*ABOUT SECTION END*/
+	cursor: pointer;}
+/*FORM SECTION END*/
 
 /*FOOTER*/
 .footer {
@@ -157,7 +131,6 @@ button a{
 	padding:20px 0px;
 	box-sizing:border-box;
 	background-color:#C9CAFF;
-	
 }
 
 .inner-footer{
@@ -189,6 +162,9 @@ button a{
 	color:white;
 }
 /*FOOTER END*/
+
+
+
 
 
 
